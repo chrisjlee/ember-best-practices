@@ -1,6 +1,18 @@
 Ember Best Practices
 ====================
 
+## Actions
+
+* When naming actions use verbs to indicate an action
+* Use actions to traverse between routes
+
+## Routes
+
+### Don't pollute your user's browser history.
+
+* When possible utilize beforeModel to evaluate if it is the correct route.
+* Utilize replaceWith() to opt out of a certain route before transitioning to it.
+
 ## Tooling
 
 ### Ember CLI
@@ -11,12 +23,7 @@ Ember CLI will allow one to easily implement best practices that are baked into 
 * ES6 transpilation
 * Unit Testing
 
-## Routes
-
-### Don't pollute your user's browser history.
-
-* When possible utilize beforeModel to evaluate if it is the correct route.
-* Utilize replaceWith() to opt out of a certain route before transitioning to it.
+<hr />
 
 ## Resources
 
