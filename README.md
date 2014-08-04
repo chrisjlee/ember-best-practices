@@ -4,7 +4,6 @@ Ember Best Practices
 ## Actions
 
 * When naming actions use verbs to indicate an action
-* Use actions to traverse between routes
 
 ## Routes
 
