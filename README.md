@@ -1,4 +1,4 @@
-ember-best-practices
+Ember Best Practices
 ====================
 
-Ember Best Practices
+
