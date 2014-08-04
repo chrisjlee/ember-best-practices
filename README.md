@@ -16,7 +16,7 @@ Ember CLI will allow one to easily implement best practices that are baked into 
 ### Don't pollute your user's browser history.
 
 * When possible utilize beforeModel to evaluate if it is the correct route.
-* Utilize replace() to opt out of a certain route before transitioning to it.
+* Utilize replaceWith() to opt out of a certain route before transitioning to it.
 
 ## Resources
 
