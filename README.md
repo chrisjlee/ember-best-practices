@@ -1,6 +1,13 @@
 Ember Best Practices
 ====================
 
+# Ember Philosophies, the "Ember Way"
+
+## Data down, Ember Up
+
+Data should always migrate down from it's parent and into it's child component / resource / etc. The data shouldn't be manipulated. Once the data is migrated down, use an action to bubble it back up.
+
+
 ## Actions
 
 * When naming actions use verbs to indicate an action
